@@ -1,0 +1,48 @@
+/* Write your styles */
+
+body{
+	background-color: #ccc;
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.am-slider {
+	margin:6px auto;
+}
+
+.am-gallery-bordered .am-gallery-item:hover {
+	border: 2px solid #0e90d2;
+}
+
+.am-gallery-default .am-gallery-title{
+	margin:10px auto;
+	font-size: 1.6rem;
+	color: #000;
+}
+
+.grally-price {
+    font-size: 1.8rem;
+}
+
+.vip-red {
+    /*color: #ff6464;*/
+    color: #e80080;
+}
+
+.mark-price{
+	text-decoration: line-through;
+    color: #999;
+}
+
+.discount {
+    float: right;
+    font-weight: bold;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0 .9rem;
+}
