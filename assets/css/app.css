@@ -27,6 +27,10 @@ body{
     font-size: 1.8rem;
 }
 
+.item-price {
+    font-size:2.4rem;
+}
+
 .vip-red {
     /*color: #ff6464;*/
     color: #e80080;
@@ -45,4 +49,14 @@ body{
     background-color: #000;
     color: #fff;
     padding: 0 .9rem;
+}
+
+.item-details li {
+    padding: 5px;
+}
+.item-details li span{
+    display: block;
+    text-align: center;
+    border:1px solid #ccc;
+    border-radius: 2px;
 }
