@@ -272,6 +272,7 @@
 }
 
 
+/* 楼层 */
 .floor {
     padding-bottom: 16px;
     border-bottom: 2px solid #707070;
@@ -280,29 +281,55 @@
     float: right;
     margin-top: 50px;
 }
-.mediary ul{
-
-    padding-top: 20px;
+.mediary {
+    margin-top: 20px;
 }
 .mediary li{
     font-family: '宋体';
     font-size: 12px;
     list-style-image:url(../img/list.png);
-    line-height: 2.8;
+    line-height: 2.6;
     padding-left: 6px;
 }
 
-.metro ul li{
+.metro {
+    margin-top: 28px;
+}
 
+.metro li{
     width: 196px;
     height: 98px;
+    list-style: none;
+    float: left;
+
 }
 
 .metro .wider {
     width: 392px;
-
 }
 
-.heighter {
+.metro .heighter {
     height: 196px;
+}
+
+.metro-color1{
+    background-color: #f39800;
+}
+.metro-color2{
+    background-color: #00b7ee
+}
+.metro-color3{
+    background-color: #a1d71a
+}
+.metro-color4{
+    background-color: #ffffff
+}
+.metro-color5{
+    background-color: #009e96
+}
+.metro-color6{
+    background-color: #5f52a0
+}
+.metro-color7{
+    background-color: #e40146
 }
