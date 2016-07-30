@@ -272,7 +272,7 @@
 }
 
 
-/* 楼层 */
+/* 微中介 */
 .floor {
     padding-bottom: 16px;
     border-bottom: 2px solid #707070;
@@ -281,19 +281,22 @@
     float: right;
     margin-top: 50px;
 }
+
 .mediary {
+    width: 370px;
     margin-top: 20px;
 }
 .mediary li{
     font-family: '宋体';
     font-size: 12px;
-    list-style-image:url(../img/list.png);
+    list-style-image:url(../img/index/list.png);
     line-height: 2.6;
     padding-left: 6px;
 }
 
 .metro {
-    margin-top: 28px;
+    width: 628px;
+    margin: 28px 0;
 }
 
 .metro li{
@@ -333,3 +336,12 @@
 .metro-color7{
     background-color: #e40146
 }
+
+
+/* 电商城 微供市场 */
+
+.mall, .market{
+
+    width: 498px;
+}
+
