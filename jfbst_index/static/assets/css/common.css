@@ -5,3 +5,10 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
 .container {
     width: 1028px !important;
 }
+
+article {
+    min-width: 1000px;
+    height: 3000px;
+    background: url(../img/index/bg.png) repeat-y;
+    background-size: 100% auto;
+}
