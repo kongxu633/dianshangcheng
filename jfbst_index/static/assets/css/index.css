@@ -193,8 +193,8 @@
 
 .hex .corner-1:before,
 .hex .corner-2:before {
-    width: 173px;
-    height: 173px;
+    width: 190px;
+    height: 190px;
     content: '';
     position: absolute;
     background: inherit;
@@ -225,11 +225,11 @@
 }
 
 .hex .corner-2:before {
-    -webkit-transform: rotate(60deg) translate(-48px, -11px);
-    -moz-transform: rotate(60deg) translate(-48px, -11px);
-    -ms-transform: rotate(60deg) translate(-48px, -11px);
-    -o-transform: rotate(60deg) translate(-48px, -11px);
-    transform: rotate(60deg) translate(-48px, -11px);
+    -webkit-transform: rotate(60deg) translate(-35px, -15px);
+    -moz-transform: rotate(60deg) translate(-35px, -15px);
+    -ms-transform: rotate(60deg) translate(-35px, -15px);
+    -o-transform: rotate(60deg) translate(-35px, -15px);
+    transform: rotate(60deg) translate(-35px, -15px);
     bottom:0;
 }
 
