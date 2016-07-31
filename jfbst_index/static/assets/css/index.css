@@ -284,7 +284,7 @@
 
 .mediary {
     width: 370px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 .mediary li{
     font-family: '宋体';
@@ -350,9 +350,7 @@
 /* 电商城 微供市场 */
 
 .mall{
-
     width: 486px;
-
 }
 
 .mallmain {
@@ -373,3 +371,74 @@
     color: #fff;
     text-align: center;
 }
+
+/* 家纺加盟 */
+
+.brandad {
+    width: 230px;
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+}
+
+.brandad ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    overflow: hidden;
+}
+.brandad li {
+    float: left;
+    height: 70px;
+    width: 230px;
+    margin-bottom: 7px;
+    color: #fff;
+    text-align: center;
+}
+
+/*------------------------首页找品牌-------------------------*/
+
+/*新闻头条图片滚动样式*/
+#slider{ width:580px; text-align: left; }
+.slider_box{ width:580px; margin:0 auto; height: 481px; overflow: hidden; position: relative;}
+.silder_tip{ width: 92px; height: 92px; overflow: hidden; position: absolute; top: 0; right: 0; z-index:1; text-indent:-999px; background-color: #F3F; background-repeat: no-repeat; }
+.silder_con{padding:0;overflow: hidden;position: absolute;}
+.silder_panel{ width:580px; overflow: hidden; position: relative; float:left; }
+.silder_panel img{width:580px;height: 387px;display: block;overflow: hidden;}
+.silder_intro{ width: 580px; height: 94px; line-height: 25px; overflow: hidden; color: #999; }
+.silder_intro h3{ height:40px; line-height: 40px; overflow: hidden; font-family: "微软雅黑"; font-weight: normal; font-size: 33px;padding-bottom: 10px; }
+.silder_intro h4{ font-size:12px; line-height: 22px; height: 44px; width: 490px; }
+.silder_play{display: block;width:136px;height:30px;overflow: hidden;text-indent: -999px;position: absolute;bottom: 53px;right: 105px;background: url(/images/index/4/silder-play.png) 0 -30px no-repeat;}
+.silder_play:hover{ background-position: 0 0;}
+.silder_nav{ width:230px; height:40px; bottom: 0; position: absolute; overflow: hidden; margin-top: 0; margin-right: auto; margin-bottom: 20; margin-left: 370px; padding-bottom:10px; }
+.silder_nav li{ float: left; border:1px solid #fff; margin-top: 2px; margin-right: 0px; margin-bottom: 0px; margin-left: 5px; }
+.silder_nav li.current{ border:1px solid #7acf39; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 4px; }
+.silder_nav li,.silder_nav img{display: block;width:60px; height:40px;overflow: hidden;}
+#slider .slider_box a.prev,.slider_box a.next{ display: block; width:40px; height:40px; overflow:hidden; text-indent: -999px; position: absolute; cursor: pointer; background-color: #000; background-repeat: no-repeat; margin-top: 50px; margin-right: 0; margin-bottom: 0; margin-left: 0; }
+#slider .slider_box a.prev{ float:left; margin-left:495px; background-image: url(/images/tong/lea.png); background-repeat: no-repeat; }
+#slider .slider_box a.next{ float:left; margin-left: 540px; background-image: url(/images/tong/leb.png); background-repeat: no-repeat;  }
+
+.silder_nav .lia{ float: left; border:0px solid #FFF; width: 369px; height:40px; display: inline; }
+.silder_nav .lia a{ float: left; border:1px solid #ccc; width: 88px; height:40px; margin-right:5px; display: inline; }
+.silder_nav .lia a:hover{ border:1px solid #ff9900; }
+.silder_nav .lia a img{ float: left; width: 86px; height:38px; }
+.silder_nav .lia.current{ border:0px solid #7acf39;}
+.silder_nav .lia,.silder_nav img{display: block;width:86px; height:38px;overflow: hidden;}
+
+#slidera .slider_box a.prev,.slider_box a.next{ display: block; width:40px; height:40px; overflow:hidden; text-indent: -999px; position: absolute; cursor: pointer; background-color: #000; background-repeat: no-repeat;  margin-right: 0; margin-bottom: 0; margin-left: 0; }
+#slidera .slider_box a.prev{ float:left; margin-left:0px; background-image: url(/images/tong/lea.png); background-repeat: no-repeat; margin-top:95px;}
+#slidera .slider_box a.next{ float:left; margin-left: 699px; background-image: url(/images/tong/leb.png); background-repeat: no-repeat;margin-top:95px;}
+
+/*首页广告位 A1*/
+.bannera1 {padding: 20px 0; width: 760px;}
+.bannera1 .left{ width: 758px; height:378px; padding: 8px; float: left; background-color: #f1f1f1; border: 1px solid #E1E1E1; }
+.bannera1 .right{ width:212px; height:360px; background-color: #f1f1f1; padding: 8px; float: right; border: 1px solid #E1E1E1; }
+.bannera1 .right .lr{ height:320px; width:212px; background-color:#fff; background-image: url(/images/tong/top2.gif); background-position: 15px 20px; background-repeat: no-repeat;}
+.bannera1 .right .lr .lia{ padding-left:40px; line-height:31px; color:#da2337; }
+.bannera1 .right .lr .lia a{color:#da2337; }
+.bannera1 .right .lr .lia span{ float:right; margin-right:15px; color:#da2337;}
+.bannera1 .right .lr .lib{ padding-left:40px; line-height:31px; }
+.bannera1 .right .lr .lib span{ float:right; margin-right:15px;}
+.bannera1 .lefta{ width: 768px; height:378px; float: left;}
+.bannera1 .lefta a{ float: left; width:138px; height:87px; border: 1px solid #ccc; margin-right: 13px; margin-bottom: 8px; padding: 0px; }
+.bannera1 .lefta a:Hover{border: 1px solid #da2337;}
+.bannera1 .lefta a img{width:138px; height:87px;}
