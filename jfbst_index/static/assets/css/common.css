@@ -12,3 +12,22 @@ article {
     background: url(../img/index/bg.png) repeat-y;
     background-size: 100% auto;
 }
+
+.bg-color1 {
+    background-color: #f39800;
+}
+.bg-color2 {
+    background-color: #00b7ee
+}
+.bg-color3 {
+    background-color: #a1d71a
+}
+.bg-color4 {
+    background-color: #e40146
+}
+.bg-color5 {
+    background-color: #009e96
+}
+.bg-color6 {
+    background-color: #5f52a0
+}

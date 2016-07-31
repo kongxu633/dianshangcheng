@@ -303,11 +303,15 @@
     padding-top: 20px;
     width: 196px;
     height: 98px;
-    color: #fff;
     font-size: 20px;
     text-align: center;
     list-style: none;
     float: left;
+}
+
+.metro li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -345,9 +349,27 @@
 
 /* 电商城 微供市场 */
 
-.mall, .market{
+.mall{
 
-    width: 498px;
+    width: 486px;
 
 }
 
+.mallmain {
+    margin: 30px 0;
+}
+
+.mallad ul {
+    padding: 10px 0;
+    list-style: none;
+    margin-right: -10px;
+    overflow: hidden;
+}
+.mallad li {
+    float: left;
+    height: 70px;
+    width: 240px;
+    margin: 5px 6px 5px 0;
+    color: #fff;
+    text-align: center;
+}
