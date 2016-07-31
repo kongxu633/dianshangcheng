@@ -300,18 +300,23 @@
 }
 
 .metro li{
+    padding-top: 20px;
     width: 196px;
     height: 98px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
     list-style: none;
     float: left;
-
 }
+
 
 .metro .wider {
     width: 392px;
 }
 
 .metro .heighter {
+    padding-top: 0;
     height: 196px;
 }
 
@@ -343,5 +348,6 @@
 .mall, .market{
 
     width: 498px;
+
 }
 
