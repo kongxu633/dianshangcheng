@@ -463,3 +463,38 @@
     color: #fff;
     text-align: center;
 }
+
+
+/* 产业链 */
+.chaintop {
+    padding: 20px 0 10px 0;
+    margin-right: -5px;
+    overflow: hidden;
+}
+
+.chaintop img {
+    margin-right: 2px;
+}
+
+.chainlogo {
+
+    width: 1000px;
+    margin-right: -20px;
+    overflow: hidden;
+}
+
+.chainlogo ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    overflow: hidden;
+}
+.chainlogo li {
+    float: left;
+    height: 80px;
+    width: 120px;
+    margin: 2px 2px;
+    color: #fff;
+    background-color: #ccc;
+    text-align: center;
+}
