@@ -428,3 +428,38 @@
 
 .bannera1 {padding: 20px 0; width: 760px;}
 .bannera1 .left{ width: 758px; height:378px; padding: 8px; float: left; background-color: #f1f1f1; border: 1px solid #E1E1E1; }
+
+
+/* 网销导航 */
+.netsale {
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.netsale ul {
+    padding: 5px 0;
+    list-style: none;
+    margin-right: -10px;
+    overflow: hidden;
+}
+.netsale li {
+    float: left;
+    height: 244px;
+    width: 244px;
+    margin: 5px 7px 5px 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* 通栏广告 */
+
+.fullad {
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
