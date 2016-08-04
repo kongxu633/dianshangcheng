@@ -59,13 +59,6 @@
     background-color:#aeff00;
 }
 
-.skippr-previous {
-
-}
-
-.skippr-next {
-
-}
 
 /*导航*/
 
@@ -466,37 +459,54 @@
 
 
 /* 产业链 */
-.chaintop {
-    padding: 20px 0 10px 0;
-    margin-right: -5px;
-    overflow: hidden;
-}
 
-.chaintop img {
-    margin-right: 2px;
-}
+.chain { width: 1002px; margin-right: auto; margin-left: auto; padding-top: 30px; padding-bottom: 30px; clear: both; overflow: hidden; }
+.chain ul {padding:0;list-style: none;}
+.chain .ml { width: 501px; float: left; margin-right: 1px; }
+.chain .ml .bt {width: 498px; margin: 0px; background: url(../img/index/ml.jpg);}
+.chain .ml .bt a{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; margin-left: 17px; line-height: 22px; height: 22px; width: 55px; }
+.chain .ml .bt a:hover{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .ml .img {  width: 498px; height: 336px; }
+.chain .ml li { float: left; height: 78px; width: 120px; margin-right: 5px; margin-bottom: 6px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .ml li a {border: 1px solid #ccc; display: block; margin: 0px; padding: 0px; }
+.chain .ml li a:hover { border: 1px solid #d13; }
+.chain .fl { width: 252px; float: left; margin-right: 1px; }
 
-.chainlogo ul {
-    padding: 0;
-    margin-left: -1px;
-    margin-right: -10px;
-    overflow: hidden;
-    list-style: none;
-}
-.chainlogo li {
-    float: left;
-    height: 80px;
-    width: 120px;
-    margin-right: 6px;
-    margin-bottom: 5px;
-    color: #fff;
-    text-align: center;
-}
+.chain .fl .bt {width: 245px; margin: 0px; background: url(../img/index/fl.jpg);}
+.chain .fl .bt a{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; margin-left: 17px; line-height: 22px; height: 22px; width: 55px; }
+.chain .fl .bt a:hover{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
 
-/* chainnav */
-.chainnav {
-    width: 1000px;
-    height:  200px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-}
+.chain .fl .img {  width: 498px; height: 336px; }
+.chain .fl .img a{ height: 110px; width: 246px; display:block; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .fl .img a:hover{ border:0px;}
+.chain .fl li { float: left; height: 78px; width: 120px; margin-right: 6px; margin-bottom: 6px; }
+.chain .fl li a { border: 1px solid #ccc; display: block; }
+.chain .fl li a:hover { border: 1px solid #d13; }
+.chain .jx { width: 246px; float: left; }
+
+.chain .jx .bt {width: 246px; margin: 0px; background: url(../img/index/jx.jpg);}
+.chain .jx .bt a{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; margin-left: 17px; line-height: 22px; height: 22px; width: 55px; }
+.chain .jx .bt a:hover{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .jx .img {  width: 498px; height: 336px; }
+.chain .jx .img a{ height: 110px; width: 246px; display:block; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .jx .img a:hover{ border:0px;}
+.chain .jx li { float: left; height: 78px; width: 120px; margin-right: 6px; margin-bottom: 6px; }
+.chain .jx li a { border: 1px solid #ccc; display: block; }
+.chain .jx li a:hover { border: 1px solid #d13; }
+.chain .hx { width: 126px; float: left; font-size: 12px; }
+.chain .hx .bt {  height: 22px; width: 120px; margin: 0px; background: url(../img/index/navbj.png); }
+.chain .hx .bt a{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; margin-left: 13px; line-height: 22px; height: 22px; width: 55px; }
+.chain .hx .bt a:hover{ color: #FFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .hx .img { height: 110px; width: 120px; }
+.chain .hx .img a{ height: 110px; width: 120px; display:block; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.chain .hx .img a:hover{ border:0px;}
+.chain .hx li { float: left; height: 78px; width: 120px; margin-right: 6px; margin-bottom: 6px; }
+.chain .hx li a { border: 1px solid #ccc; display: block; }
+.chain .hx li a:hover {  border: 1px solid #d13; }
+
+.chain .for { height: 300px; width: 242px; border: 1px solid #ccc; float: left; margin-left: 1px; background-color: #fff; }
+/*产业链右边*/
+.chainr{border-bottom:1px dashed #999;height:10px;margin-top:10px;}
+.chainr span{background:#fff;margin-left:80px;color:#d13;padding:0 5px;}
+.chainr ul{ padding: 0 2px;}
+.chainr ul li{list-style: none;float: left;background: #eaeaea;width: 110px; height: 20px; margin-left: 5px;  margin-bottom: 3px; text-indent: 8px; font-size: 14px;}
