@@ -476,25 +476,27 @@
     margin-right: 2px;
 }
 
-.chainlogo {
-
-    width: 1000px;
-    margin-right: -20px;
-    overflow: hidden;
-}
-
 .chainlogo ul {
     padding: 0;
-    margin: 20px 0;
-    list-style: none;
+    margin-left: -1px;
+    margin-right: -10px;
     overflow: hidden;
+    list-style: none;
 }
 .chainlogo li {
     float: left;
     height: 80px;
     width: 120px;
-    margin: 2px 2px;
+    margin-right: 6px;
+    margin-bottom: 5px;
     color: #fff;
-    background-color: #ccc;
     text-align: center;
+}
+
+/* chainnav */
+.chainnav {
+    width: 1000px;
+    height:  200px;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
