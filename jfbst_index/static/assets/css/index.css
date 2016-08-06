@@ -517,33 +517,35 @@
 .content {margin: 30px auto; margin-right: -20px; overflow: hidden; }
 .content .banner { height: 225px; width: 325px; margin-left: 10px; margin-top: 15px; }
 .content .bannerbg { width:344px;height:330px;background: url(../img/index/imac.png); float: left; }
-.content .information { float: left; width: 330px; margin-right: 20px; margin-left: 20px; }
+.content .information { float: left; width: 330px; margin-right: 10px; margin-left: 15px; }
 
-.content .information a h2 { font-size: 20px; line-height: 22px; color: #333; height: 22px; margin-bottom: 7px; text-decoration: none; font-family: "微软雅黑"; }
-.content .information a h2:hover{ color:#d13}
-.content .information a h4 { line-height: 20px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #ccc; margin-bottom: 10px; padding-bottom: 10px; }
-.content .information a h4 span { color: #d13; }
+.content .information p {
+    font-size: 20px;
+}
+.content .information a h5 span { color: #d13; }
 
 .content .information ul { padding: 0;}
-.content .information ul li a { height: 33px; line-height: 33px; font-size: 14px; color: #ccc; }
+.content .information ul li a { height: 33px; line-height: 33px; font-size: 14px; color: #7e7e7e; }
 .content .information ul li a span { float: right; }
 .content .information ul li a b { font-weight: normal; color: #d13; margin-right: 3px; }
 .content .exhibition { float: left; width: 314px; height: 270px; }
+.content .exhibition ul {padding-left: 0;}
 .content .exhibition .xtitle { width: 300px; height: 25px; background-color: #e5e5e5; line-height: 25px; color: #d13; padding-right: 5px; padding-left: 9px; font-size: 12px; margin-bottom: 6px; font-weight: bold; }
 .content .exhibition .xtitle span { float: right; }
 .content .exhibition .xtitle span a { font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
 .content .exhibition .db { height: 65px; padding-bottom: 5px; font-size: 12px; line-height: 20px; }
 .content .exhibition .db a b { font-size: 14px; font-weight: bold; margin-bottom: 10px; }
 .content .exhibition .db img { float: left; margin-left: 10px; margin-right: 10px; }
-.content .exhibition .db_a { width:305px; height: 65px; font-size: 12px; line-height: 18px; margin-bottom: 8px; border: 1px solid #bebebe; padding: 2px; margin-right: auto; margin-left: auto; font-family: "宋体"; }
+.content .exhibition .db_a { width:305px; height: 67px; font-size: 12px; line-height: 18px; margin-bottom: 8px; border: 1px solid #bebebe; padding: 2px; margin-right: auto; margin-left: auto; font-family: "宋体"; }
 .content .exhibition .db_a:hover{border: 1px solid #da2337;}
-.content .exhibition .db_a a b { font-size: 14px; font-weight: bold; margin-bottom: 5px;display:block; margin-top: 5px; }
+.content .exhibition .db_a a b { font-size: 14px; font-weight: bold; margin-bottom: 5px;display:block; }
 .content .exhibition .db_a img { float: left; margin-right: 10px; }
 
 
 /*------------------------资讯切换-------------------------*/
 #scrob { width: 476px; height: 29px; margin-bottom: 10px; }
-.scrollUlb li { float: left; cursor:pointer; height:29px; font-size: 12px; width: 103px; line-height: 29px; font-family: "宋体"; padding: 0px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; list-style-type: none; text-align: center; background-position: 0px; background-image: none; }
+.scrollUlb {margin-left: 3px; overflow: hidden;}
+.scrollUlb li { float: left; cursor:pointer; height:29px; font-size: 12px; width: 100px; line-height: 29px; font-family: "宋体"; padding: 0px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; list-style-type: none; text-align: center; background-position: 0px; background-image: none; }
 .sdb01 { color:#fff; padding: 0px; margin: 0px;background-color:#da2337;}
 .sdb02 { color: #fff; background-color:#b5b5b5; padding: 0px; margin: 0px; }
 #con_fourb_2,#con_fourb_3{ display:none;}
@@ -562,3 +564,15 @@
     background: #333;
     opacity: .8;
 }
+
+
+/* 家纺百科 */
+.encyclopedias{ width: 1004px; margin-right: auto; margin-left: auto; padding-bottom: 15px; overflow: hidden; }
+
+.encyclopedias .bka { float: left; width: 320px; margin-right: 10px; padding-top: 10px; }
+.encyclopedias .bka .xtitle { background-color: #e5e5e5; height: 25px; width: 308px; line-height: 25px; font-weight: bold; color: #d13; padding-right: 10px; padding-left: 10px; }
+.encyclopedias .bka .xtitle span { float: right; }
+.encyclopedias .bka .xtitle span a { font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+.encyclopedias .bka ul { padding-left: 0; padding-top: 5px; padding-bottom: 10px; }
+.encyclopedias .bka ul li { line-height: 25px; background-image: url(/images/tong/d.gif); background-repeat: no-repeat; background-position: 10px center; height:25px; padding-right: 10px; padding-left: 18px; }
+.encyclopedias .bka ul li a { font-size: 14px; }
