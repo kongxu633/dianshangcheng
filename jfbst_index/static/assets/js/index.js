@@ -1,8 +1,25 @@
 $(document).ready(function(){
-    $('#skippr').skippr();
+    $('#skippr').skippr({
+        autoPlay: true,
+    });
+    $('#news-skippr').skippr({
+        navType: 'bubble',
+        arrows: false,
+        autoPlay: true,
+    });
     slidesing("#slidera_name");
 });
 
+
+function chanTab(name,cursel,n,class1,class2){
+
+    for(i=1;i<=n;i++){
+        var menu=document.getElementById(name+i);
+        var con=document.getElementById("con_"+name+"_"+i);
+        con.style.display=i==cursel?"block":"none";
+        menu.className=i==cursel?class1:class2;
+    }
+}
 
 /* 品牌加盟 幻灯*/
 function slidesing(slider_name){

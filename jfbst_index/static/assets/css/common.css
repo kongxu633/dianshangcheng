@@ -12,6 +12,14 @@ article {
     background-size: 100% auto;
 }
 
+ul,ol {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .bg-color1 {
     background-color: #f39800;
 }

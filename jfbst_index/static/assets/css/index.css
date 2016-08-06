@@ -4,12 +4,13 @@
     line-height: 2.85;
     color: #a7a7a7;
     background-color: #e5e5e5;
+    overflow: hidden;
 }
 .lbar li {
     margin-right: 20px;
 }
 
-.banner {
+.topbanner {
     height: 93px;
     background: url(../img/index/banner.png) no-repeat;
 }
@@ -39,12 +40,12 @@
     opacity: .65;
 }
 
-.skippr-nav-container {
+#skippr .skippr-nav-container {
     bottom: 15px;
     width: 780px;
 }
 
-.skippr-nav-element-block {
+#skippr .skippr-nav-element-block {
     width: 150px;
     height: 4px;
     margin-right: 6px;
@@ -53,7 +54,7 @@
     background-repeat: no-repeat;
 }
 
-.skippr-nav-element-active {
+#skippr .skippr-nav-element-active {
 
     border: 1px solid #aeff00;
     background-color:#aeff00;
@@ -510,3 +511,54 @@
 .chainr span{background:#fff;margin-left:80px;color:#d13;padding:0 5px;}
 .chainr ul{ padding: 0 2px;}
 .chainr ul li{list-style: none;float: left;background: #eaeaea;width: 110px; height: 20px; margin-left: 5px;  margin-bottom: 3px; text-indent: 8px; font-size: 14px;}
+
+
+/* 家纺资讯 */
+.content {margin: 30px auto; margin-right: -20px; overflow: hidden; }
+.content .banner { height: 225px; width: 325px; margin-left: 10px; margin-top: 15px; }
+.content .bannerbg { width:344px;height:330px;background: url(../img/index/imac.png); float: left; }
+.content .information { float: left; width: 330px; margin-right: 20px; margin-left: 20px; }
+
+.content .information a h2 { font-size: 20px; line-height: 22px; color: #333; height: 22px; margin-bottom: 7px; text-decoration: none; font-family: "微软雅黑"; }
+.content .information a h2:hover{ color:#d13}
+.content .information a h4 { line-height: 20px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #ccc; margin-bottom: 10px; padding-bottom: 10px; }
+.content .information a h4 span { color: #d13; }
+
+.content .information ul { padding: 0;}
+.content .information ul li a { height: 33px; line-height: 33px; font-size: 14px; color: #ccc; }
+.content .information ul li a span { float: right; }
+.content .information ul li a b { font-weight: normal; color: #d13; margin-right: 3px; }
+.content .exhibition { float: left; width: 314px; height: 270px; }
+.content .exhibition .xtitle { width: 300px; height: 25px; background-color: #e5e5e5; line-height: 25px; color: #d13; padding-right: 5px; padding-left: 9px; font-size: 12px; margin-bottom: 6px; font-weight: bold; }
+.content .exhibition .xtitle span { float: right; }
+.content .exhibition .xtitle span a { font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+.content .exhibition .db { height: 65px; padding-bottom: 5px; font-size: 12px; line-height: 20px; }
+.content .exhibition .db a b { font-size: 14px; font-weight: bold; margin-bottom: 10px; }
+.content .exhibition .db img { float: left; margin-left: 10px; margin-right: 10px; }
+.content .exhibition .db_a { width:305px; height: 65px; font-size: 12px; line-height: 18px; margin-bottom: 8px; border: 1px solid #bebebe; padding: 2px; margin-right: auto; margin-left: auto; font-family: "宋体"; }
+.content .exhibition .db_a:hover{border: 1px solid #da2337;}
+.content .exhibition .db_a a b { font-size: 14px; font-weight: bold; margin-bottom: 5px;display:block; margin-top: 5px; }
+.content .exhibition .db_a img { float: left; margin-right: 10px; }
+
+
+/*------------------------资讯切换-------------------------*/
+#scrob { width: 476px; height: 29px; margin-bottom: 10px; }
+.scrollUlb li { float: left; cursor:pointer; height:29px; font-size: 12px; width: 103px; line-height: 29px; font-family: "宋体"; padding: 0px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; list-style-type: none; text-align: center; background-position: 0px; background-image: none; }
+.sdb01 { color:#fff; padding: 0px; margin: 0px;background-color:#da2337;}
+.sdb02 { color: #fff; background-color:#b5b5b5; padding: 0px; margin: 0px; }
+#con_fourb_2,#con_fourb_3{ display:none;}
+
+/* 344X330  323X225 */
+#news-skippr .skippr-nav-container {
+    display: none;
+}
+
+#news-skippr div p {
+    margin-top: 190px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #333;
+    opacity: .8;
+}
