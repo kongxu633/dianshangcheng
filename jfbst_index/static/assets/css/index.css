@@ -515,7 +515,7 @@
 
 /* 家纺资讯 */
 
-.content {margin: 30px auto; margin-right: -20px; overflow: hidden; }
+.content {margin: 30px auto; overflow: hidden; }
 .content a { color: #8a8a8a;}
 .content .banner { height: 225px; width: 325px; margin-left: 10px; margin-top: 15px; }
 .content .bannerbg { width:344px;height:330px;background: url(../img/index/imac.png); float: left; }
@@ -563,12 +563,45 @@
 
 
 /* 家纺百科 */
-.encyclopedias{ width: 1004px; margin-right: auto; margin-left: auto; padding-bottom: 15px; overflow: hidden; }
+.encyclopedias{
+    margin: 30px 0;
+    margin-right: -13px;
+    overflow: hidden;
+}
 
-.encyclopedias .bka { float: left; width: 320px; margin-right: 10px; padding-top: 10px; }
-.encyclopedias .bka .xtitle { background-color: #e5e5e5; height: 25px; width: 308px; line-height: 25px; font-weight: bold; color: #d13; padding-right: 10px; padding-left: 10px; }
-.encyclopedias .bka .xtitle span { float: right; }
-.encyclopedias .bka .xtitle span a { font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
-.encyclopedias .bka ul { padding-left: 0; padding-top: 5px; padding-bottom: 10px; }
-.encyclopedias .bka ul li { line-height: 25px; background-image: url(/images/tong/d.gif); background-repeat: no-repeat; background-position: 10px center; height:25px; padding-right: 10px; padding-left: 18px; }
-.encyclopedias .bka ul li a { font-size: 14px; }
+.encyclopedias .bka {
+    float: left;
+    margin-right: 12px;
+    width: 325px;
+    height: 216px;
+    border: 1px solid #ccc;
+}
+
+.bka .xtitle{
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bka .xtitle a {
+    float: right;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bka ul {
+    list-style: square;
+}
+
+.bka li {
+    height: 32px;
+    line-height: 32px;
+}
+
+.bka ul li a {
+    color: #7e7e7e;
+}
