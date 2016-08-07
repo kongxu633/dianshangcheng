@@ -514,38 +514,34 @@
 
 
 /* 家纺资讯 */
+
 .content {margin: 30px auto; margin-right: -20px; overflow: hidden; }
+.content a { color: #8a8a8a;}
 .content .banner { height: 225px; width: 325px; margin-left: 10px; margin-top: 15px; }
 .content .bannerbg { width:344px;height:330px;background: url(../img/index/imac.png); float: left; }
-.content .information { float: left; width: 330px; margin-right: 10px; margin-left: 15px; }
+.content .information { float: left; width: 330px; margin-right: 12px; margin-left: 15px; }
 
-.content .information p {
-    font-size: 20px;
-}
-.content .information a h5 span { color: #d13; }
+.content .information p a{font-size: 24px; color: #434343; }
+.content .information p span { margin-right: 10px;border: 10px solid #e81a61;}
+
+.content .information a span { color: #d13; }
 
 .content .information ul { padding: 0;}
-.content .information ul li a { height: 33px; line-height: 33px; font-size: 14px; color: #7e7e7e; }
+.content .information ul li a { height: 32px; line-height: 32px; font-size: 14px; color: #7e7e7e; }
 .content .information ul li a span { float: right; }
 .content .information ul li a b { font-weight: normal; color: #d13; margin-right: 3px; }
-.content .exhibition { float: left; width: 314px; height: 270px; }
+.content .exhibition { float: left; width: 297px; overflow: hidden;}
 .content .exhibition ul {padding-left: 0;}
-.content .exhibition .xtitle { width: 300px; height: 25px; background-color: #e5e5e5; line-height: 25px; color: #d13; padding-right: 5px; padding-left: 9px; font-size: 12px; margin-bottom: 6px; font-weight: bold; }
-.content .exhibition .xtitle span { float: right; }
-.content .exhibition .xtitle span a { font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
-.content .exhibition .db { height: 65px; padding-bottom: 5px; font-size: 12px; line-height: 20px; }
-.content .exhibition .db a b { font-size: 14px; font-weight: bold; margin-bottom: 10px; }
-.content .exhibition .db img { float: left; margin-left: 10px; margin-right: 10px; }
-.content .exhibition .db_a { width:305px; height: 67px; font-size: 12px; line-height: 18px; margin-bottom: 8px; border: 1px solid #bebebe; padding: 2px; margin-right: auto; margin-left: auto; font-family: "宋体"; }
+.content .exhibition .db_a { width:297px; height: 68px; font-size: 12px; line-height: 18px; margin-bottom: 8px; border: 1px solid #bebebe;font-family: "宋体"; }
 .content .exhibition .db_a:hover{border: 1px solid #da2337;}
-.content .exhibition .db_a a b { font-size: 14px; font-weight: bold; margin-bottom: 5px;display:block; }
-.content .exhibition .db_a img { float: left; margin-right: 10px; }
+.content .exhibition .db_a a b { font-size: 14px; font-weight: bold; color: #434343; margin-top:5px; margin-bottom: 5px; display:block; }
+.content .exhibition .db_a img { float: left; margin:3px 12px 0 2px; }
 
 
 /*------------------------资讯切换-------------------------*/
-#scrob { width: 476px; height: 29px; margin-bottom: 10px; }
-.scrollUlb {margin-left: 3px; overflow: hidden;}
-.scrollUlb li { float: left; cursor:pointer; height:29px; font-size: 12px; width: 100px; line-height: 29px; font-family: "宋体"; padding: 0px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; list-style-type: none; text-align: center; background-position: 0px; background-image: none; }
+#scrob { width: 297px; height: 29px; margin-bottom: 10px; }
+.scrollUlb {margin-right:-6px; overflow: hidden;}
+.scrollUlb li { float: left; cursor:pointer; width: 97px; height:29px; line-height: 29px; margin-right: 3px; font-size: 12px; font-family: '宋体'; text-align: center;}
 .sdb01 { color:#fff; padding: 0px; margin: 0px;background-color:#da2337;}
 .sdb02 { color: #fff; background-color:#b5b5b5; padding: 0px; margin: 0px; }
 #con_fourb_2,#con_fourb_3{ display:none;}
