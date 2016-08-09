@@ -16,7 +16,8 @@
 }
 
 .search {
-    width: 230px;
+    text-align: right;
+    width: 260px;
     margin-top: 36px;
 
 }
