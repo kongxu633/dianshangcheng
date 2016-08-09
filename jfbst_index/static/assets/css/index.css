@@ -706,3 +706,30 @@ li.bFl-item-hover{z-index:3;}.bFlil-link{display:block;cursor:pointer; text-deco
 .scrollleft img{width:185px;height:160px;}
 .scrollleft li span{ display: block; width: 185px;height: 35px; line-height: 35px; color:#fff; font-size:16px; background-color: #000; opacity: .6;}
 
+/*底部友情链接*/
+.links ul,li { margin: 0; padding: 0; border: 0; font-family: "微软雅黑";font-size:12px; }
+
+#fscroa { width: 1000px; height:42px; line-height: 42px; background: url(../img/index/linkbj.gif) repeat-x; border: 1px solid #dedede; }
+.fscrollUla li { float: left; width:140px; font-size: 16px; text-align: center; }
+.fsda01 { cursor: pointer; text-decoration: none; float: left; background-color: #e81a61; border-right:1px solid #dedede;  }
+.fsda01 a{ color: #fff; text-decoration: none; }
+.fsda02 { cursor: pointer; text-decoration: none; float: left;}
+.fsda02 a{ color: #313131; text-decoration: none; }
+
+.links { width: 1004px; margin-right: auto; margin-left: auto; margin-bottom: 15px; }
+.links .linlr { width: 1000px; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #dedede; border-right-color: #dedede; border-bottom-color: #dedede; border-left-color: #dedede; clear: both; overflow: hidden; padding-top: 10px; padding-bottom: 10px; padding-left: 12px; }
+.links .linlr li { overflow: hidden;line-height: 22px; float: left; height: 22px; width: 105px; margin-left: 5px; background-position: left; color: #999; display: inline; }
+#con_foura_2 li{width: 115px;}
+.links .linlr li a {height: 22px; width: 100px; color: #7e7e7e;}
+.links .linlr a:hover {color: #d13; text-decoration: underline; }
+
+/* 底部 */
+.foonav { line-height: 30px; height: 30px; width: 1000px; margin-right: auto; margin-left: auto; clear: both; padding-top: 5px; text-align: center; border-top-width: 2px; border-top-style: double; border-top-color: #707070; padding-bottom: 5px; margin-top: 10px; }
+.foonav a { margin-right: 20px; margin-left: 20px; font-size: 12px; }
+.foonavbst { line-height: 60px; height: 60px; width: 1000px; margin-right: auto; margin-left: auto; clear: both; padding-top: 5px; text-align: center; border-top-width: 2px; border-top-style: double; border-top-color: #707070; padding-bottom: 5px; margin-top: 10px; }
+.foonavbst a {color: #7e7e7e; margin-right: 20px; margin-left: 20px; font-size: 12px; height: 40px; line-height: 40px; }
+.foonavbst a:hover { color: #d13; text-decoration: underline;}
+.copyright { line-height: 22px; width: 1000px; margin-right: auto; margin-left: auto; clear: both; padding-top: 10px; text-align: center; font-size: 12px; padding-bottom: 10px; color: #FFF; background-color: #1181dd; }
+.copyright a{ color:#fff}
+.copyrighta { width: 1000px; margin-right: auto; margin-left: auto; clear: both; padding-top: 15px; text-align: center; padding-bottom: 15px; }
+.copyrighta img{ margin-left:5px; margin-right:5px; border: 1px solid #E8E8E8; }
