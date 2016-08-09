@@ -75,15 +75,16 @@
 
 .nav .container ul {
     list-style: none;
-    padding-left: 2px;
+    padding-left: 0px;
+    margin-left: -23px;
+    margin-right: -10px;
+    overflow: hidden;
 }
 
 
 .nav .container ul li{
-    text-align: left;
     float: left;
-    padding-right: 25px;
-    margin-right: 25px;
+    padding: 0 25px;
     background: url(../img/index/split.png) no-repeat;
     background-position: 100% 8px;
 }
