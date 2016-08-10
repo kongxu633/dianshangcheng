@@ -70,7 +70,7 @@
     color: #a0a0a0;
     font-size:16px;
     font-weight:bold;
-    line-height: 3.5;
+    line-height: 3.75;
     background: url(../img/index/navb.png);
 }
 
@@ -91,9 +91,9 @@
 }
 
 .nav .container ul li a {
+    padding: 16px 0;
     color: #a0a0a0;
     text-shadow: #000 2px 2px 5px;
-    padding: 18px 0;
     text-decoration: none;
 }
 
@@ -693,16 +693,8 @@ li.bFl-item-hover{z-index:3;}.bFlil-link{display:block;cursor:pointer; text-deco
 
 
 /* 叠石桥 */
-.dsqmain {
-    width: 1000px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-.stitle {
-    font-size: 20px;
-    font-weight: bold;
-    color: #707070;
-}
+.dsqmain {width: 1000px;margin-top: 30px;margin-bottom: 20px;}
+.stitle {font-size: 20px;font-weight: bold;color: #707070;}
 .scrollleft{ padding-top: 5px; }
 .scrollleft li{float:left;margin-right:10px; width:185px; display:inline;text-align:center;}
 .scrollleft img{width:185px;height:160px;}
