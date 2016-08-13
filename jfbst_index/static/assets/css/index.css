@@ -377,12 +377,9 @@
 }
 
 .mallpic img {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
+    -webkit-filter:grayscale(1);
+    /*-webkit-filter:brightness(.5);*/
+
 }
 
 .mallpic:hover img {
@@ -467,12 +464,13 @@
 }
 
 .netsale li img {
-    -webkit-filter: grayscale(90%);
-    -moz-filter: grayscale(90%);
-    -ms-filter: grayscale(90%);
-    -o-filter: grayscale(90%);
-    filter: grayscale(90%);
-    filter: gray;
+    /*-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;*/
+    -webkit-filter:brightness(.5);
 }
 
 .netsale li:hover img {
