@@ -470,7 +470,11 @@
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;*/
-    -webkit-filter:brightness(.5);
+    -webkit-filter: brightness(.5);
+    -moz-filter: brightness(.5);
+    -ms-filter: brightness(.5);
+    -o-filter: brightness(.5);
+    filter: brightness(.5);
 }
 
 .netsale li:hover img {
@@ -481,7 +485,13 @@
     filter: none;
 }
 
-
+.netsale li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 245px;
+    height: 245px;
+}
 
 /* 通栏广告 */
 
