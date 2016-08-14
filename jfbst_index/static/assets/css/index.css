@@ -172,11 +172,7 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-position: 50%;
-
-    -webkit-background-size: 125%;
-    -moz-background-size: 125%;
-    background-size: 125%;
+    background-position: -30px -15px;
     visibility: visible;
 
     -webkit-transform: rotate(-60deg);
